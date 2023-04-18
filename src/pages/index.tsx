@@ -10,6 +10,7 @@ export default function Home() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   }
+  
  
   return (
     
@@ -86,6 +87,11 @@ export default function Home() {
               More Information
             </a>
           </div>
+
+
+
+
+          
         </div>
 
         <div id="carouselControls" className="carousel slide" data-ride="carousel">
