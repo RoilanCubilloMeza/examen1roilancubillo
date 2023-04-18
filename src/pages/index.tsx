@@ -15,7 +15,7 @@ export default function Home() {
   };
   return (
     <>
-      <header className="p-3 mb-5 border-bottom d-flex ">
+      <header className="p-3 mb-5 border-bottom d-flex  text-center">
         <div className="container">
           <div className="d-flex flex-wrap align-align-align-items-lg-start">
             <ul className="nav col-12 col-lg me-lg-auto mb-2 justify-center">
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
       </header>
-      <main>
+      <main className=" text-center">
         <div className="container-Personal-presentation flex-wrap align-align-align-items-lg-start">
           <div className="p-3 mb-5 border-bottom d-flex">
             <p className="text-personal-presentation text-center  ">
@@ -61,11 +61,29 @@ export default function Home() {
             </p>
           </div>
           <a
-            className=" btn btn-primary btn-lg "
+            className=" btn btn-primary btn-lg  p-1 mb-5
+             "
             href="https://www.linkedin.com/in/roilan-cubillo-717983253/"
           >
             My Profile on LinkedIn
           </a>
+        </div>
+      
+         <p className="text-personal-presentation  p-3 mb-0">
+         More Information Press the following button
+            </p>
+
+           
+        
+        <div className=" p-3 mb-5 border-bottom text-center p-1">
+<div  className="text-xl-left">
+<a className="btn btn-primary btn-lg text-center"
+href="https://notionforms.io/forms/exam">More Information</a>
+
+
+</div>
+
+
         </div>
 
         
