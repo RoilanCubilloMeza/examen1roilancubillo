@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Carousel } from 'react-bootstrap';
 
 interface CarouselProps {
